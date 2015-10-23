@@ -1,1 +1,54 @@
-h1 Hello World!
+.container.page-header
+  h1 Teresa Krause
+
+.section(id="about-me")
+  .container
+    h3.topic-header Where I am
+    .row
+      .col-lg-12
+        img.city-header(src="boston-skyline-01.png" alt="boston skyline")
+    for topic in public._data["about-me-present"]
+      .row
+        .col-lg-12
+          h5
+            i.fa(class=topic.icon) 
+            != topic.name
+          p
+            != topic.description
+
+.section.colora
+  .container.spacer
+
+.section(id="about-me-past")
+  .container
+    h3.topic-header Where I've been
+    .row
+      .col-lg-12
+        img.city-header(src="sf-skyline-02.png" alt="san francisco skyline")
+    for topic in public._data["about-me-past"]
+      .row
+        .col-lg-12
+          h5
+            i.fa(class=topic.icon) 
+            != topic.name
+          p
+            != topic.description
+
+.section.colorb
+  .container.spacer
+
+.section(id="contact-me")
+  .container
+    h3.topic-header Get in Touch
+    for contact in public._data["contact-me"]
+      .row
+        .col-lg-12
+          a(href=contact.link) 
+            i.fa(class=contact.icon)
+            != contact.description
+
+.section
+  .container.spacer
+
+.nav.navbar-bottom
+  .footer #[i.fa.fa-copyright] 2015 Teresa Krause

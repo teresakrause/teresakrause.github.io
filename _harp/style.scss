@@ -1,0 +1,60 @@
+$primary-color : #1359B4;
+$primary-color-dark: #053470;
+$secondary-color-a : #FFD006;
+$secondary-color-b : #FF5406;
+$white: #FFFFFF;
+/* http://colorschemedesigner.com/csd-3.5/#3D31Yvf..yKjF */
+
+body {
+  background-color: $primary-color;
+  color: black;
+}
+
+nav.navbar {
+  background-color: black;
+  border: none;
+}
+
+.container.page-header {
+  background-color: $primary-color-dark;
+  color: $white;
+  border-bottom: 0px;
+}
+
+.section {
+  i.fa {
+  margin-right: 5px;
+  }
+  .container {
+    background-color: $white;
+  }
+  .container.spacer {
+    height: 50px
+  }
+}
+
+.section.colora {
+  background-color: $secondary-color-a;
+}
+
+.section.colorb {
+  background-color: $secondary-color-b;
+}
+
+.section#contact-me {
+  a {
+    color: $primary-color-dark;
+  }
+}
+.jumbotron.header {
+  background-color: white;
+}
+
+.city-header {
+  max-height: 100px;
+}
+
+.horizontal-divider {
+  background-color: rgb(51, 51, 51);
+  height: 2px;
+}
