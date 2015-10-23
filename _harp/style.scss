@@ -6,7 +6,7 @@ $white: #FFFFFF;
 /* http://colorschemedesigner.com/csd-3.5/#3D31Yvf..yKjF */
 
 body {
-  background-color: $primary-color;
+  background-color: $primary-color-dark;
   color: black;
 }
 
@@ -16,8 +16,8 @@ nav.navbar {
 }
 
 .container.page-header {
-  background-color: $primary-color-dark;
-  color: $white;
+  background-color: $white;
+  color: black;
   border-bottom: 0px;
 }
 
@@ -29,21 +29,30 @@ nav.navbar {
     background-color: $white;
   }
   .container.spacer {
-    height: 50px
+    height: 10px;
+    margin-bottom: 40px;
   }
 }
 
 .section.colora {
+  .container {
   background-color: $secondary-color-a;
+}
 }
 
 .section.colorb {
+  .container {
   background-color: $secondary-color-b;
+  }
 }
 
 .section#contact-me {
   a {
     color: $primary-color-dark;
+    :hover {
+      color: $secondary-color-b;
+      text-decoration: none;
+    }
   }
 }
 .jumbotron.header {
