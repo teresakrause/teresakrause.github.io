@@ -9,5 +9,5 @@ for project in public.projects._data.projects
       h3= project.name
       if project["gh-link"]
         p
-          a(href="https://github.com/teresakrause/"+project["gh-link"]) #[i.fa.fa-github-alt] teresakrause/#[span= project["gh-link"]]
+          a(href="https://github.com/"+project["gh-link"]) #[i.fa.fa-github-alt] #[span= project["gh-link"]]
       != project.objective
