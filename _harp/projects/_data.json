@@ -1,0 +1,14 @@
+{
+  "projects" : [
+    {
+      "name": "FixMyNEU",
+      "objective": "I've been really frustrated using the student portal for Northeastern. I figured that it would be simple to reskin and add a few features. This was the first time I used Javascript, and I wanted some experience before I went needed to use it on co-op. The interface normally looks like this: <img class='img-responsive' style='width:600px' src='/projects/myneu.png'><br> With the extension installed, it looks like this: <img class='img-responsive' style='width:600px;' src='/projects/myneu-fixed.png'>",
+      "gh-link": "fixmyneu"
+    },
+    {
+      "name": "Personal Website",
+      "objective": "This website! I had been putting off setting up a personal website for myself. In order to help other people with the same problem (but mostly myself), I set up a 'Personal Website Hackday' with nuWiT. Even though I was organizing the event, I learned a lot from the other speakers about website design, using bootstrap, and accessibility.",
+      "gh-link": "teresakrause.github.io"
+    }
+  ]
+}
