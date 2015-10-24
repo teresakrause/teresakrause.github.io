@@ -11,7 +11,7 @@ html(lang="en")
     link(
      rel="stylesheet" 
      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css")
-    link(href='style.css', rel='stylesheet')
+    link(href='/style.css', rel='stylesheet')
 
     // HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
     //if lt IE 9
@@ -26,11 +26,10 @@ html(lang="en")
           button.navbar-toggle.collapsed -
         .navbar-collapse.collapsed
           ul.nav.navbar-nav
-            li 
-              a(href="/#about-me") About Me
             li
               a(href="/resume") Resume
-
+            li 
+              a(href="/projects") Projects
     != yield
   script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
   script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js")

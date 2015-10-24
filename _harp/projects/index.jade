@@ -1,1 +1,13 @@
-h1 Projects
+.section
+  .container.page-header
+    h1 Projects
+    a(href="https://github.com/teresakrause") #[i.fa.fa-2x.fa-github-square] github.com/teresakrause
+
+for project in public.projects._data.projects
+  .section
+    .container.github
+      h3= project.name
+      if project["gh-link"]
+        p
+          a(href="https://github.com/teresakrause/"+project["gh-link"]) #[i.fa.fa-github-alt] teresakrause/#[span= project["gh-link"]]
+      != project.objective
