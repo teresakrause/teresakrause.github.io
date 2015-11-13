@@ -1,12 +1,14 @@
 $primary-color : #1359B4;
 $primary-color-dark: #053470;
-$secondary-color-a : #FFD006;
-$secondary-color-b : #FF5406;
+$secondary-color-a : lighten(#FFD006, 20%);
+$secondary-color-b : lighten(#FF5406, 10%);
 $white: #FFFFFF;
+
+$bg-color: lighten($primary-color, 50%);
 /* http://colorschemedesigner.com/csd-3.5/#3D31Yvf..yKjF */
 
 body {
-  background-color: $primary-color-dark;
+  background-color: $bg-color;
   color: black;
   a {
     color: $primary-color-dark;
@@ -15,11 +17,6 @@ body {
       text-decoration: none;
     }
   }
-}
-
-nav.navbar {
-  background-color: black;
-  border: none;
 }
 
 .white {
@@ -37,7 +34,7 @@ nav.navbar {
       margin-bottom: 20px;
     }
     border-bottom-width: 10px;
-    border-bottom-color: $secondary-color-a;
+    border-bottom-color: $secondary-color-b;
     border-bottom-style: solid;
     margin-bottom: 20px;
   }

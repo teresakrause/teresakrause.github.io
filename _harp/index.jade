@@ -1,6 +1,13 @@
 .section
   .container.page-header
-    h1 Teresa Krause
+    h1 #[i.fa.fa-home] Teresa Krause
+    .row
+      .col-lg-2.col-md-2.col-sm-4
+        h4
+          a.nav-link(href="/resume") #[i.fa.fa-info-circle] Resume
+      .col-lg-2.col-md-2.col-sm-4
+        h4
+          a.nav-link(href="/projects") #[i.fa.fa-suitcase] Projects
 
 .section
   .container
@@ -46,5 +53,5 @@
             i.fa.fa-2x(class=contact.icon)
             != contact.description
 
-.nav.navbar-bottom
+.container
   .footer #[i.fa.fa-copyright] 2015 Teresa Krause

@@ -2,7 +2,7 @@
   "projects" : [
     {
       "name": "FixMyNEU",
-      "objective": "I've been really frustrated using the student portal for Northeastern. I figured that it would be simple to reskin and add a few features. This was the first time I used Javascript, and I wanted some experience before I went needed to use it on co-op. The interface normally looks like this: <img class='img-responsive' style='width:600px' src='/projects/myneu.png'><br> With the extension installed, it looks like this: <img class='img-responsive' style='width:600px;' src='/projects/myneu-fixed.png'>",
+      "objective": "I've been really frustrated using the student portal for Northeastern. I figured that it would be simple to reskin and add a few features. This was the first time I used Javascript, and I wanted some experience before I went needed to use it on co-op. <div class='row'><div class='col-lg-6'> The interface normally looks like this:  <img class='img-responsive' style='width:600px' src='/projects/myneu.png'></div><div class='col-lg-6'>With the extension installed, it looks like this: <img class='img-responsive' style='width:600px;' src='/projects/myneu-fixed.png'></div>",
       "gh-link": "teresakrause/fixmyneu"
     },
     {
