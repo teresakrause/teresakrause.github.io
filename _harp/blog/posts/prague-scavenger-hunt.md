@@ -30,7 +30,7 @@ While some of the group went on a tour of the cemetery, I went ahead to the _sta
 The surreal statue seemed a good fit for the author, whose books are very mind-bending.
 
 <figure class="figure">
-  <img src="../img/posts/prague-kafka.jpg" class="figure-img img-fluid img-responsive img-rounded" alt="Kafka statue selfie">
+  <img src="../img/posts/prague-kafka-statue.jpg" class="figure-img img-fluid img-responsive img-rounded" alt="Kafka statue selfie">
   <figcaption class="figure-caption text-right">Me, in front of the Kafka statue</figcaption>
 </figure>
 
