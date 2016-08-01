@@ -3,49 +3,55 @@
     {
       "icon": "fa-graduation-cap",
       "name": "Student at Northeastern Univeristy",
-      "description": "I'm currently a candidate for a Bachelor's degree in Computer Science (2018). 2018?! Why is it taking me 5 years to graduate? Northeastern has a really cool 5-3 <a href='http://www.northeastern.edu/coop/'> co-op program</a> that I'm enrolled in."
-    },
-    {
-      "icon": "fa-wrench",
-      "name": "Vice President of HackBeanpot Inc.",
-      "description": "I'm helping organize <a href='http://hackbeanpot.com/'>HackBeanpot 2016.</a> I attended the hackathon last year (2015) as a volunteer and had an amazing time. I help the team get sh*t done by managing the meeting agendas, sending out emails, keeping track of meetings, and occasionally sending harrassing messages as deadlines approach."
-    },
-    {
-      "icon": "fa-venus",
-      "name": "Vice President of the Northeastern University Women in Technology club",
-      "description": "I have recieved so much support to pursue my love of computing and technology, and I want to make sure that everyone can have that opprotunity. With the Women in Technology club, I work to make sure that there is a safe space to celebrate the women at Northeastern who are as excited about technology as I am."
+      "description": "I'm currently a candidate for a Bachelor's degree in Computer Science at Northeastern Univeristy College of Computer and Information Science. I plan to graduate in June, 2017."
     }
   ],
   "about-me-past": [
-  {
-    "icon": "fa-wrench",
-    "name": "Hubspot",
-    "description": "From January to June 2015, I worked at Hubspot as a software engineering co-op. I learned a lot about front-end web development, using javascript, coffeescript, jade, handlebars, CSS, and SASS."
-  },
-  {
-    "icon": "fa-graduation-cap",
-    "name": "Castilleja High School",
-    "description": "From 6-12th grade, I attended Castilleja School. The motto 'Women Learning Women Leading' has stuck with me as I continue my life 3000 miles away. I have never believed that I am less qualified or smart than my male peers, and I never will."
-  }
+    {
+      "icon": "fa-wrench",
+      "name": "Swoop: Software Enginnering Co-op <br><i>January-June 2016</i>",
+      "description": "I had my second co-op at Swoop Inc."
+
+    },
+    {
+      "icon": "fa-wrench",
+      "name": "Vice President of HackBeanpot Inc. <br><i>May 2015-April 2016</i>",
+      "description": "I attended HackBeanpot 2015 as a volunteer, and then joined the team as the Vice President in 2016. I helped the team get sh*t done by managing the meeting agendas, sending out emails, keeping track of meetings, and  sending more and more frequent messages as deadlines approach."
+    },
+    {
+      "icon": "fa-venus",
+      "name": "Vice President of the Northeastern University Women in Technology club <br><i>May 2015-April 2016</i>",
+      "description": "I have recieved so much support to pursue my love of computing and technology, and I want to make sure that everyone can have that opprotunity. With the Women in Technology club, I work to make sure that there is a safe space to celebrate the women at Northeastern who are as excited about technology as I am."
+    },
+    {
+      "icon": "fa-wrench",
+      "name": "Hubspot: Software Enginnering Co-op <br><i>January-June 2015</i>",
+      "description": "I worked at Hubspot as a software engineering co-op. I learned a lot about front-end web development, using javascript, coffeescript, jade, handlebars, CSS, and SASS."
+    },
+    {
+      "icon": "fa-graduation-cap",
+      "name": "Castilleja High School <br><i>2006-2013</i>",
+      "description": "From 6-12th grade, I attended Castilleja School. The motto 'Women Learning Women Leading' has stuck with me as I continue my life 3000 miles away. I have never believed that I am less qualified or smart than my male peers, and I never will."
+    }
   ],
   "contact-me": [
-  {
-    "icon": "fa-paper-plane",
-    "name": "email",
-    "description": "Email me at teresakk42@gmail.com",
-    "link": "mailto:teresakk42@gmail.com"
-  },
-  {
-    "icon": "fa-twitter-square",
-    "name": "Twitter",
-    "description": "Follow me on Twitter @sporkfishes",
-    "link": "https://twitter.com/sporkfishes"
-  },
-  {
-    "icon": "fa-linkedin-square",
-    "name": "Linked In",
-    "description": "Conect with me on LinkedIn",
-    "link": "https://www.linkedin.com/pub/teresa-krause/95/61a/729"
-  }
+    {
+      "icon": "fa-paper-plane",
+      "name": "email",
+      "description": "Email me at teresakk42@gmail.com",
+      "link": "mailto:teresakk42@gmail.com"
+    },
+    {
+      "icon": "fa-twitter-square",
+      "name": "Twitter",
+      "description": "Follow me on Twitter @sporkfishes",
+      "link": "https://twitter.com/sporkfishes"
+    },
+    {
+      "icon": "fa-linkedin-square",
+      "name": "Linked In",
+      "description": "Conect with me on LinkedIn",
+      "link": "https://www.linkedin.com/pub/teresa-krause/95/61a/729"
+    }
   ]
 }

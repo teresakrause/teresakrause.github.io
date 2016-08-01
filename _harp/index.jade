@@ -1,57 +1,92 @@
-.section
-  .container.page-header
-    h1 #[i.fa.fa-home] Teresa Krause
-    .row
-      .col-lg-2.col-md-2.col-sm-4
-        h4
-          a.nav-link(href="/resume") #[i.fa.fa-info-circle] Resume
-      .col-lg-2.col-md-2.col-sm-4
-        h4
-          a.nav-link(href="/projects") #[i.fa.fa-suitcase] Projects
-
-.section
-  .container
-    .row
-      .col-lg-6.col-md-6
-        .section(id="about-me")
-          h3.topic-header Where I am
-          .row
-            .col-lg-12
-              img.city-header(src="boston-skyline-01.png" alt="boston skyline")
-          for topic in public._data["about-me-present"]
-            .row
-              .col-lg-12
-                h5
-                  i.fa(class=topic.icon) 
-                  != topic.name
-                p
-                  != topic.description
-
-      .col-lg-6.col-md-6
-        .section(id="about-me-past")
-          h3.topic-header Where I've been
-          .row
-            .col-lg-12
-              img.city-header(src="sf-skyline-02.png" alt="san francisco skyline")
-          for topic in public._data["about-me-past"]
-            .row
-              .col-lg-12
-                h5
-                  i.fa(class=topic.icon) 
-                  != topic.name
-                p
-                  != topic.description
+!= partial("_nav")
+header
+    .container
+        .intro-text
+            .into-lead-in Personal Website of:
+            .intro-heading Teresa Krause
 
 
-.section(id="contact-me")
-  .container
-    h3.topic-header Get in Touch
-    for contact in public._data["contact-me"]
-      .row.contact-wrapper
-        .col-lg-12
-          a(href=contact.link)
-            i.fa.fa-2x(class=contact.icon)
-            != contact.description
+section#about-me
+    .container
+        .row
+            .col-lg-12.text-center
+                h2.section-heading About Me
+                h3.section-subheading.text-muted Hey, I'm a programmer and a student and a dog-lover
+        .row.text-center
+            .col-md-4
+                span.fa-stack.fa-4x
+                    i.fa.fa-circle.fa-stack-2x.text-primary
+                    i.fa.fa-book.fa-stack-1x.fa-inverse
+                h4.link-one-heading Northeastern University
+                p.text-muted I'm studying computer science at NEU, and will graduate in June 2017.
+            .col-md-4
+                span.fa-stack.fa-4x
+                    i.fa.fa-circle.fa-stack-2x.text-primary
+                    i.fa.fa-laptop.fa-stack-1x.fa-inverse
+                h4.link-one-heading HackBeanpot Inc.
+                p.text-muted I'm working with HackBeanpot Inc. on our 2017 event. I volunteered at HackBeanpot 2015, and was on the organizing team for HackBeanpot 2016.
+            .col-md-4
+                span.fa-stack.fa-4x
+                    i.fa.fa-circle.fa-stack-2x.text-primary
+                    i.fa.fa-venus.fa-stack-1x.fa-inverse
+                h4.link-one-heading Women in Technology Club
+                p.text-muted Last year I served as the Vice President, and this year I plan to attend meetings as well as go with the group to the Grace Hopper Celebration in October.
 
-.container
-  .footer #[i.fa.fa-copyright] 2015 Teresa Krause
+section.bg-light-gray#hire-me
+    .container
+        .row
+            .col-lg-12.text-center
+                h2.section-heading Hire Me
+                h3.section-subheading.text-muted Actually. 
+        .row
+            .col-md-4.col-sm-6
+                h4 When?
+                p June 2017! I'll be graduating from Northeastern next year, and I'm looking for a full-time development position.
+            .col-md-4.col-sm-6
+                h4 Where?
+                p Short answer: anywhere. Long answer: San Francisco Bay Area (home), Seattle, Austin, Boston, anywhere that you can convince me is fun.
+            .col-md-4.col-sm-6
+                h4 What?
+                p The majority of my experience is with web apps (as a back-end Java engineer) but I'm also interested in Robotics, mobile development, and UX.
+
+    section
+        .row.text-center
+            .col-md-5.col-md-offset-1
+                span.fa-stack.fa-4x
+                    i.fa.fa-circle.fa-stack-2x.text-primary
+                    i.fa.fa-lightbulb-o.fa-stack-1x.fa-inverse
+                h4.link-one-heading Organization/ Leadership
+                p.text-muted I've been involved in leadership positions for many of the organizations that are important to me. I served as the Vice President of the NU Women in Technology club, as well as VP of HackBeanpot Inc. and secretary for the NU ACM chapter.
+            .col-md-5
+                span.fa-stack.fa-4x
+                    i.fa.fa-circle.fa-stack-2x.text-primary
+                    i.fa.fa-code.fa-stack-1x.fa-inverse
+                h4.link-one-heading Web App Development
+                p.text-muted I've done both front-end (Javascript) development and back-end (Java REST API) development on large-scale web applications. My personal projects are all on my #[a(href="https://github.com/teresakrause") github].
+        .row.text-center
+            .col-md-6.col-md-offset-3
+                span.fa-stack.fa-4x
+                    i.fa.fa-circle.fa-stack-2x.text-primary
+                    i.fa.fa-desktop.fa-stack-1x.fa-inverse
+                h4.link-one-heading Using Software and Systems
+                p.text-muted I can use the Microsoft Office suite (as well as equivalent word processing programs,) as well as various photo and video editing software such as the Adobe Creative Suite and Final Cut Pro. I've worked on Windows, Mac, and Linux environments.
+        br
+        .row.text-center
+            .col-md-2.col-md-offset-2
+                a(href="https://docs.google.com/document/d/1OUQCoffSnKhXJzUnuXxPr2Mh-XBTzNr9bpukzBeDntk/edit?usp=sharing")
+                    span.fa-stack.fa-2x
+                        i.fa.fa-circle.fa-stack-2x
+                        i.fa.fa-download.fa-stack-1x.fa-inverse
+                    h4.link-one-heading Download my resume
+            .col-md-2.col-md-offset-1
+                a(href="https://www.linkedin.com/in/teresa-krause")
+                    span.fa-stack.fa-2x
+                        i.fa.fa-circle.fa-stack-2x
+                        i.fa.fa-linkedin-square.fa-stack-1x.fa-inverse
+                    h4.link-one-heading Contact me on LinkedIn
+            .col-md-2.col-md-offset-1
+                a(href="https://www.linkedin.com/in/teresa-krause")
+                    span.fa-stack.fa-2x
+                        i.fa.fa-circle.fa-stack-2x
+                        i.fa.fa-github.fa-stack-1x.fa-inverse
+                    h4.link-one-heading Visit my github profile

@@ -1,0 +1,19 @@
+html
+	head
+		title Teresa's Blog
+		link(
+			rel="stylesheet"
+			href="/styles/bootstrap.min.css")
+		link(
+			rel="stylesheet"
+			href="/blog/styles/clean-blog.min.css")
+		link(
+			rel="stylesheet"
+			href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800")
+		link(
+			rel="stylesheet"
+			href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic")
+	body
+		!= partial("_blognav")
+		!= yield
+		!= partial("_blogfooter")

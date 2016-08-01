@@ -1,0 +1,22 @@
+header.intro-header(style="background-image:url('img/cover/#{img}')")
+	.container
+		.row
+			.col-lg-8.col-lg-offset-2.col-md.10.col-md-offset-1
+				.site-heading
+					h1 Teresa's Blog
+					hr.small
+					span.subheading My "adventures"
+.container
+	.row
+		.col-lg-8.col-lg-offset-2.mol-md-10.col-md-offset-1
+			for post, slug in public.blog.posts._data
+				if post.live && !post.archived
+					.post-preview
+						a(href="posts/#{slug}")
+							h2.post-title #{post.title}
+							h3.post-subtitle #{post.subtitle}
+						p.post-meta Written #{post.date}
+//	.row
+//		.col-lg-8.col-lg-offset-2.mol-md-10.col-md-offset-1
+//			a(href="archive")
+//				p.post-subtitle See more
