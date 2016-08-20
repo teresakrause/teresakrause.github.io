@@ -37,3 +37,6 @@ The second building we entered was a bathroom, with a trough in the middle and a
 Women were only allowed to use the restroom a few times a day, though many suffered from diarrhea from the camp conditions.
 A survivor describes that the yard area directly outside the bathroom was full of several feet of mud and fecal matter since many couldn't wait in line to use the bathroom.
 
+I felt lucky walking out of the camp to be able to walk away, when so many died right where I stood.
+The amount of death and suffering that took place on this site is truly hard to comprehend.
+Even after walls of photos, piles of human hair, and walking through the gas chambers I have trouble wrapping my mind around it.

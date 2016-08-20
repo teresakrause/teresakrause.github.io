@@ -1,4 +1,28 @@
 {
+	"wwii-museum": {
+		"live": true,
+		"title": "Gdansk World War Two Museum",
+		"date": "8/05/2016",
+		"subtitle": "The future site of the WWII Museum in Gdansk",
+		"img": "wwii-museum.jpg"
+	},
+
+	"solidarity-museum": {
+		"live": true,
+		"title": "The Solidarity Museum",
+		"date": "8/04/2016",
+		"subtitle": "The museum of the Polish Solidarity movement",
+		"img": "solidarity.jpg"
+	},
+
+	"westerplatte": {
+		"live": true,
+		"title": "Tour of Westerplatte",
+		"date": "8/02/2016",
+		"subtitle": "The first battleground of World War Two",
+		"img": "westerplatte.jpg"
+	},
+
 	"chopin-estate": {
 		"live": true,
 		"title": "The Chopin Estate and Concert",
@@ -34,7 +58,7 @@
 	},
 
 	"auschwitz": {
-		"live": false,
+		"live": true,
 		"title": "Auschwitz-Birkenau",
 		"date": "7/18/2016",
 		"subtitle": "Concentration camp",
@@ -42,36 +66,12 @@
 		"footnotes": "Image of the Auschwitz gate from <a href='https://commons.wikimedia.org/wiki/File:Arbeit_Mach_Frei_gate_Auschwitz_2012.jpg'> Wikimedia Commons</a>"
 	},
 
-	"salt-mine": {
-		"live": false,
-		"title": "Wieliczka Salt Mine",
-		"date": "7/17/2016",
-		"subtitle": "A walk down through the Wieliczka salt mine",
-		"img": ""
-	},
-
 	"schindler-factory": {
-		"live": false,
+		"live": true,
 		"title": "Schindler's Factory Tour",
 		"date": "7/16/2016",
 		"subtitle": "A guided tour through the museum built at the headquarters of Schindler's Factory",
 		"img": "schindler-museum.jpg"
-	},
-
-	"wawel-castle": {
-		"live": false,
-		"title": "Wawel Castle",
-		"date": "7/16/2016",
-		"subtitle": "Wawel castle tour",
-		"img": "wawel.jpg"
-	},
-
-	"arado": {
-		"live": false,
-		"title": "Arado project tour",
-		"date": "7/13/2016",
-		"subtitle": "A very theatrical journey through the site of a former Nazi research center.",
-		"img": "arado.jpg"
 	},
 
 	"lidice": {

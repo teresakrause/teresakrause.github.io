@@ -1,7 +1,7 @@
 Prague Scavenger Hunt
 =========
 
-My scavenger hunt group scoured the city all day Wednesday for the 10 sites required for the contest. 
+My scavenger hunt group scoured the city all day Wednesday for the 8 sites required for the contest. 
 We were luck enough to already have a picture the _astronomical clock_ and _"dancing house"_ from earlier tours, as well as the _Lennon wall_ from an evening walk around the city yesterday.
 
 The first location that the group visited was the graveyard near our hotel, where the Czech hero Jan Palach is buried. 
